@@ -1,0 +1,11 @@
+name = "Indiego"
+license = "Unlicense"
+licenselink = "https://git.jlel.se/jlelse/Indiego/raw/branch/master/LICENSE.md"
+description = "jlelse's personal Hugo theme"
+homepage = "https://git.jlel.se/jlelse/Indiego"
+tags = []
+features = []
+
+[author]
+  name = "Jan-Lukas Else"
+  homepage = "https://jlelse.dev"
