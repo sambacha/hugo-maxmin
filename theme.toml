@@ -1,11 +1,28 @@
-name = "Indiego"
-license = "Unlicense"
-licenselink = "https://git.jlel.se/jlelse/Indiego/raw/branch/master/LICENSE.md"
-description = "jlelse's personal Hugo theme"
-homepage = "https://git.jlel.se/jlelse/Indiego"
+name = "MaxMin"
+license = "MIT"
+licenselink = "LICENSE.md"
+description = "Maximal Minimalist Hugo theme"
+homepage = "."
 tags = []
 features = []
 
 [author]
-  name = "Jan-Lukas Else"
-  homepage = "https://jlelse.dev"
+  name = "Sam Bacha"
+  homepage = "https://"
+
+pygmentsCodefences = true
+
+
+[markup]
+[markup.highlight]
+anchorLineNos = false
+codeFences = true
+guessSyntax = false
+hl_Lines = ''
+lineAnchors = ''
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+style = 'emacs'
+tabWidth = 4
