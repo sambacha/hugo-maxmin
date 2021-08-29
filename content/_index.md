@@ -35,7 +35,7 @@ g y = y * 100
 
 They are simple enough. And as is so common in functional programming, I'm going to combine these two function using *functional composition*.
 
-```hs
+```lang=hs
 h :: Float -> Float
 h = g . f
 ```

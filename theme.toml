@@ -1,4 +1,4 @@
-name = "MaxMin"
+name = "maxmin"
 license = "MIT"
 licenselink = "LICENSE.md"
 description = "Maximal Minimalist Hugo theme"
@@ -8,21 +8,20 @@ features = []
 
 [author]
   name = "Sam Bacha"
-  homepage = "https://"
+  homepage = "https://sambacha."
 
 pygmentsCodefences = true
 
 
 [markup]
+
 [markup.highlight]
-anchorLineNos = false
-codeFences = true
-guessSyntax = false
-hl_Lines = ''
-lineAnchors = ''
-lineNoStart = 1
-lineNos = false
-lineNumbersInTable = true
-noClasses = true
-style = 'emacs'
-tabWidth = 4
+      codeFences = true
+      style = 'emacs'
+      guessSyntax = true
+      hl_Lines = ""
+      lineNoStart = 1
+      lineNos = true
+      lineNumbersInTable = true
+      tabWidth = 4
+      noClasses = false
